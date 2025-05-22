@@ -1,10 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import { JSX, useEffect } from "react";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { IoAnalyticsOutline } from "react-icons/io5";
 import { ImDatabase } from "react-icons/im";
-import { animate, inView, motion, useInView, useMotionValue, useScroll } from "framer-motion";
-import { InView } from 'react-intersection-observer';
+import { animate, motion, useMotionValue } from "framer-motion";
 
 type Project = {
     icon: JSX.Element;

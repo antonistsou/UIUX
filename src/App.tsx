@@ -10,7 +10,6 @@ import ZoomInScreen from './Components/ZoomInfiles/ZoomInScreen';
 import AfterZoom from './Components/ZoomInfiles/AfterZoom';
 import SplashScreen from './Components/SplashScreen';
 import { motion } from 'framer-motion';
-import TryGrid from './Components/TryGrid';
 
 function App() {
   const [showNav, setShowNav] = useState(false);

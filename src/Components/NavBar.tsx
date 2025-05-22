@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { TbWorld } from "react-icons/tb";
 
 interface Props {
     show: boolean;

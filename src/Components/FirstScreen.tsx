@@ -1,4 +1,4 @@
-import React, { forwardRef, useRef, useState } from 'react'
+import { forwardRef, useRef, useState } from 'react'
 import animationData from "../assets/lotties/Animation - 1747157095078.json"
 import Lottie from 'lottie-react'
 import WelcomeComp from './WelcomeComp';
@@ -7,7 +7,7 @@ import type { LottieRefCurrentProps } from "lottie-react";
 import { MdLoop } from "react-icons/md";
 
 
-const FirstScreen = forwardRef<HTMLDivElement>((props, ref) => {
+const FirstScreen = forwardRef<HTMLDivElement>((_props, ref) => {
 
     const lottieRef = useRef<LottieRefCurrentProps>(null);
     const [loop, setLoop] = useState(true);
