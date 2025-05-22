@@ -1,0 +1,12 @@
+#root {
+  margin: 0 auto;
+  height: 100%;
+  max-width: 100%;
+  text-align: center;
+  font-family: roboto;
+  overflow: visible;
+}
+
+video {
+  object-fit: cover;
+}
