@@ -13,8 +13,17 @@
     .dark body {
         @apply text-white;
         background-color: #1b1f1f;
+        scroll-behavior: smooth;
+        overscroll-behavior-x: none;
+        /* overflow: hidden; */
         /* Dark mode */
     }
+}
+
+section,
+div {
+    max-width: 100vw;
+    box-sizing: border-box;
 }
 
 @layer utilities {

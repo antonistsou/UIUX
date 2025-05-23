@@ -46,9 +46,10 @@ const SecondAnimationScreen = () => {
     );
 
     return (
-        <div className="relative h-[750vh] bg-black z-10 " >
+        <div className="relative h-[750vh] bg-black z-10" >
             <div className="sticky top-0 h-screen bg-black ">
-                <div className='absolute top-0 bottom-0 left-0 right-0 '>
+
+                <div className='absolute top-0 bottom-0 left-0 right-0 overflow-hidden'>
                     <ul className="flex flex-col w-full h-screen pt-20 overflow-hidden gap-52">
                         <li className='flex justify-start w-full mx-36'>
                             <motion.section id="s1"
@@ -57,7 +58,9 @@ const SecondAnimationScreen = () => {
                                 <h2 className='text-base text-indigo-400 sm:text-lg md:text-xl lg:text-2xl xl:text-6xl'>Next Level</h2>
                             </motion.section>
                         </li>
-                        <li className='flex justify-center w-full'>
+                        <li className='flex justify-center w-full overflow-visible'>
+
+
                             <motion.div
                                 initial={{
                                     opacity: 1,
@@ -67,9 +70,10 @@ const SecondAnimationScreen = () => {
                                 }}
                             >
                                 <section ref={zoomRef}>
-                                    <h2 className='text-nowrap text-[10vw] pl-5'>Limitless</h2>
+                                    <h2 className='text-nowrap text-[10vw] xl:pl-5'>Limitless</h2>
                                 </section>
                             </motion.div>
+
                         </li>
                         <li className='flex justify-end w-full'>
                             <motion.section id="s2"
@@ -85,6 +89,7 @@ const SecondAnimationScreen = () => {
             </div>
         </div >
     );
+
 };
 
 export default SecondAnimationScreen;
