@@ -55,7 +55,7 @@ const SecondAnimationScreen = () => {
                             <motion.section id="s1"
                                 style={{ x: moveXs1, y: moveYs1, scale: scaleSides }}
                             >
-                                <h2 className='text-base text-indigo-400 sm:text-lg md:text-xl lg:text-2xl xl:text-6xl'>Next Level</h2>
+                                <h2 className='text-base text-indigo-400 sm:text-lg md:text-xl xl:text-6xl'>Next Level</h2>
                             </motion.section>
                         </li>
                         <li className='flex justify-center w-full overflow-visible'>
@@ -70,14 +70,14 @@ const SecondAnimationScreen = () => {
                                 }}
                             >
                                 <section ref={zoomRef}>
-                                    <h2 className='text-nowrap text-[10vw] xl:pl-5'>Limitless</h2>
+                                    <h2 className='text-nowrap text-[10vw] xl:pl-5 sm:pl-[4px]'>Limitless</h2>
                                 </section>
                             </motion.div>
 
                         </li>
                         <li className='flex justify-end w-full'>
                             <motion.section id="s2"
-                                className='text-base text-purple-400 sm:text-lg md:text-xl lg:text-2xl xl:text-5xl'
+                                className='text-base text-purple-400 sm:text-lg md:text-xl xl:text-5xl'
                                 style={{ x: moveXs2, y: moveYs2, scale: scaleSides }}
                             >
                                 <h2>Projects</h2>

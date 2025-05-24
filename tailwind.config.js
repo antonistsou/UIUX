@@ -12,6 +12,8 @@ export default {
       },
       screens: {
         sm: "320px",
+        md: "360px",
+        xl: "1024px"
       },
       fontFamily: {
         roboto: ['Roboto'],

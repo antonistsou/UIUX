@@ -15,7 +15,7 @@ const NavBar = ({ show }: Props) => {
                 animate={show ? { opacity: 1, y: 0 } : { opacity: 0, y: 0 }}
                 transition={{ duration: 0.3 }}
             >
-                <div className='fixed py-5 shadow-lg left-1/2 transform -translate-x-1/2 z-10 flex justify-around items-center w-[90%] max-w-7xl backdrop-blur-sm rounded-3xl '>
+                <div className='fixed py-5 mt-5 shadow-lg left-1/2 transform -translate-x-1/2 z-10 flex justify-around items-center w-[90%] max-w-7xl backdrop-blur-sm rounded-3xl '>
                     <div className='text-3xl duration-700 transform hover:scale-125' onClick={() => {
                         window.location.reload();
                     }}>

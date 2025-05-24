@@ -20,8 +20,8 @@ const WelcomeComp = () => {
             }
             viewport={{ once: true }}
         >
-            <div className='bg-[#2a2a2a] opacity-85 xl:w-[40vw] h-[37vh] rounded-xl sm:w-[80vw]'>
-                <div className="group absolute flex flex-row items-center justify-center space-x-1.5 translate-y-1 translate-x-1 p-5">
+            <div className='bg-[#2a2a2a] opacity-85 xl:w-[40vw] xl:h-[37vh] sm:h-[39vh]  md:h-[45vh] rounded-xl sm:w-[80vw]'>
+                <div className="group absolute flex flex-row items-center justify-center space-x-1.5 translate-y-1 translate-x-1 p-5 ">
                     <span className="w-2.5 h-2.5 bg-red-600 rounded-full group-hover:animate-bounce-first transition-all"></span>
                     <span className="w-2.5 h-2.5 bg-orange-400 rounded-full group-hover:animate-bounce-sec transition-all"></span>
                     <span className="w-2.5 h-2.5 bg-green-400 rounded-full group-hover:animate-bounce-thrd transition-all"></span>

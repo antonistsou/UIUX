@@ -9,9 +9,9 @@ const HeroComp = ({ onViewChange }: ScreenProps) => {
 
     return (
         <InView as="div" onChange={(inView, _entry) => onViewChange(inView)}>
-            <div className='h-screen'>
+            <div className='h-screen '>
                 <video id='video' src={videobg} autoPlay loop muted className='opacity-10'></video>
-                <div className='absolute w-full overflow-x-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'>
+                <div className='absolute w-full overflow-x-hidden -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'>
                     <p className='text-6xl text-pretty whitespace-nowrap'>
                         Making projects <span className='text-cyan-700'> Land </span>
                         smooth and easy

@@ -13,7 +13,7 @@ const FirstScreen = forwardRef<HTMLDivElement>((_props, ref) => {
     const [loop, setLoop] = useState(true);
     const [rotate, setRotate] = useState("rotate-180");
     return (
-        <><div ref={ref} className='flex flex-col items-center min-h-screen mt-20 justify-evenly xl:flex-row' >
+        <><div ref={ref} className='flex flex-col items-center min-h-screen mt-20 justify-evenly xl:flex-row'  >
             <motion.div
                 initial={{
                     opacity: 0,

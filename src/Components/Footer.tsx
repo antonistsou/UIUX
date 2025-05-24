@@ -24,20 +24,18 @@ const Footer = () => {
 
     return (
         <>
-            <div className='relative bottom-0 '>
+            <div className='relative bottom-0'>
                 <hr className='h-px border-0 dark:bg-gray-700'></hr>
-                <div className="flex justify-between w-full text-lg bg-black h-fit sm:flex-col sm:items-center md:flex-row sm:gap-y-5">
-                    <p className='flex items-center justify-start md:pl-5 text-md sm:pt-5'>   &copy; {new Date().getFullYear()}</p>
-                    {/* <div className="flex items-end"> */}
+                <div className="flex justify-between w-full py-5 text-lg bg-black h-fit sm:flex-col sm:items-center md:flex-row sm:gap-y-5">
+                    <p className='flex items-center justify-start md:pl-5 text-md sm:pt-5 md:pt-0'>   &copy; {new Date().getFullYear()}</p>
                     <button onClick={handleClick} className={className} ref={ref}> {innerText} </button>
                     <a href='https://github.com/antonistsou'
                         target='_blank'
                         rel="noopener noreferrer"
-                        className='flex items-center md:pr-5 sm:pb-5 '
+                        className='flex items-center md:pr-5 sm:pb-5 md:pb-0 '
                     >
                         <FaGithub> </FaGithub>
                     </a>
-                    {/* </div> */}
                 </div>
             </div>
 

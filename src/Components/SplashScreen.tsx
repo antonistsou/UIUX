@@ -41,7 +41,7 @@ const SplashScreen = ({ delay }: props) => {
 
     return (
         <motion.div
-            className='flex items-center justify-center h-screen pb-10 space-x-4 text-5xl text-white bg-black sm:flex-col md:flex-row'
+            className='flex items-center justify-center h-screen pb-10 space-x-4 text-5xl text-white bg-black sm:flex-col xl:flex-row'
             variants={container}
             initial="hidden"
             animate={fadeOut ? "shide" : "show"}
